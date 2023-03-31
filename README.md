@@ -5,6 +5,9 @@ using Robinsons unification algorithm, for simply typed lambda calculus.
 This was made alongside the project *Tagskiptur lambda-reikningur*
 for the course STÆ402G Samæfingar í stærðfræði, University of Iceland, in Spring 2023.
 
+The unification algorithm can be found in `src/Language/SimpleTypes/Substitution.hs` (`unifier`),
+and the principal type algorithm can be found in `src/Language/SimpleTypes/Inference.hs` (`principalPair`).
+
 ## Installation
 
 To install this tool, the build tool Cabal is required, along with a Haskell compiler.
